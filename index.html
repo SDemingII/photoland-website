@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photoland</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <p class="logo">
+            <span aria-hidden="true">📷</span> Photoland
+        </p>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#" aria-current="page">Explore</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">Upload</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-form" role="search">
+            <label for="search-input" class="visually-hidden">Search photos</label>
+            <input type="search" id="search-input" name="q" placeholder="Search photos...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1 id="page-header">
+                <span id="header-text">Welcome to Photoland!</span>
+            </h1>
+            <p>Share your world, one photo at a time.</p>
+        </section>
+
+        <div class="page-layout">
+            <section class="gallery" aria-labelledby="gallery-heading">
+                <h1 id="gallery-heading">Recent Uploads</h1>
+
+                <div class="photo-grid">
+
+                    <figure class="photo-card">
+                        <img src="images/mountain-sunset.jpg" alt="A sun setting over a mountain">
+                        <figcaption>
+                            <h3>Mountain Sunset</h3>
+                            <p class="photographer"> by <a href="#">Jack Brauer</a></p>
+                            <ul class="tags">
+                                <li><a href="#">nature</a></li>
+                                <li><a href="#">sunset</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="photo-card">
+                        <img src="images/grizzly-bear.webp" alt="two grizzly bear cubs playfighting">
+                        <figcaption>
+                            <h3>Grizzly Bears</h3>
+                            <p class="photographer"> by <a href="#">Ron Niebrugge</a></p>
+                            <ul class="tags">
+                                <li><a href="#">animals</a></li>
+                                <li><a href="#">nature</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    
+                    <figure class="photo-card">
+                        <img src="images/waterfall-Bridge.jpg" alt="A waterfall surrounded by greenery with a bridge nearby">
+                        <figcaption>
+                            <h3>Waterfall Bridge</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/gray-concrete-bridge-and-waterfalls-during-daytime-cssvEZacHvQ">Blake Verdoorn</a></p>
+                            <ul class="tags">
+                                <li><a href="#">nature</a></li>
+                                <li><a href="#">waterfall</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    
+                    <figure class="photo-card">
+                        <img src="images/ocean-wave.jpg" alt="A large ocean wave cresting and breaking">
+                        <figcaption>
+                            <h3>Ocean Wave</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/a-large-ocean-wave-crests-and-breaks-vYc1k5x_f7I">Joachim Lesne</a></p>
+                            <ul class="tags">
+                                <li><a href="#">ocean</a></li>
+                                <li><a href="#">nature</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="photo-card">
+                        <img src="images/city-skyline.jpg" alt="Chicago skyscrapers and city buildings during the daytime">
+                        <figcaption>
+                            <h3>Chicago Skyline</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/white-and-brown-city-buildings-during-daytime-Nyvq2juw4_o">Pedro Lastra</a></p>
+                            <ul class="tags">
+                                <li><a href="#">city</a></li>
+                                <li><a href="#">architecture</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                   
+                    <figure class="photo-card">
+                        <img src="images/white-daisy.jpg" alt="A white daisy flower blooming during the daytime">
+                        <figcaption>
+                            <h3>White Daisy</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/white-daisy-in-bloom-during-daytime-3tYZjGSBwbk">AARN GIRI</a></p>
+                            <ul class="tags">
+                                <li><a href="#">flower</a></li>
+                                <li><a href="#">nature</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+
+                    
+                    <figure class="photo-card">
+                        <img src="images/red-cardinal.jpg" alt="A bright red cardinal perched on a brown tree branch">
+                        <figcaption>
+                            <h3>Red Cardinal</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/red-cardinal-perched-on-brown-tree-branch-during-daytime-Yu_ejF2s_dI">Patrice Bouchard</a></p>
+                            <ul class="tags">
+                                <li><a href="#">birds</a></li>
+                                <li><a href="#">wildlife</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+
+                    
+                    <figure class="photo-card">
+                        <img src="images/starry-night.jpg" alt="Pine trees silhouetted beneath a star-filled night sky">
+                        <figcaption>
+                            <h3>Starry Night Sky</h3>
+                            <p class="photographer"> by <a href="https://unsplash.com/photos/pine-trees-under-starry-sky-q3rUTmpZB-Q">Gabriele Motter</a></p>
+                            <ul class="tags">
+                                <li><a href="#">stars</a></li>
+                                <li><a href="#">night</a></li>
+                            </ul>
+                            <p class="stats">
+                                <span class="stat"><span aria-hidden="true">❤</span>128 likes</span>
+                                <span class="stat"><span aria-hidden="true">👁</span>2.4k views</span>
+                            </p>
+                        </figcaption>
+                    </figure>
+
+
+                </div>
+            </section>
+
+            <aside class="trending" aria-labelledby="trending-heading">
+
+            </aside>
+        </div>
+    </main>
+
+    <footer class="site-footer"></footer>
+</body>
+
+</html>
